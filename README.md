@@ -20,3 +20,13 @@ https://github.com/Perpetue/Bank-Account-Project
 
 #### Support and contact details
 Please feel free to contact muperpety@gmail.com if you have any issues or questions, ideas or concerns.
+# Technologies Used
+**Main Languages used:**
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Bootstrap
+**Other Technologies:**
+* Terminal
+* visual studio code
