@@ -15,3 +15,8 @@ As a user, I want to be see my bank balance before and after every transaction
 * git clone https://github.com/Perpetue/Project-Pig-Dice
 * Open the index.html file with the browser of your choice
  and To access on this project, you have to use google chrome and text-editor.
+## Link to live site on GitHub Pages
+https://github.com/Perpetue/Bank-Account-Project
+
+#### Support and contact details
+Please feel free to contact muperpety@gmail.com if you have any issues or questions, ideas or concerns.
