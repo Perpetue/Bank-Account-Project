@@ -30,3 +30,6 @@ Please feel free to contact muperpety@gmail.com if you have any issues or questi
 **Other Technologies:**
 * Terminal
 * visual studio code
+## License
+This project is licensed under the MIT License
+**_Perpetue Muhawenimana_** Copyright (c) 2019
