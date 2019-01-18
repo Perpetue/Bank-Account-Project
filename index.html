@@ -11,40 +11,42 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
-        <h1>Bank Account</h1>
-        <h2>Register New Account</h2>
-      </div>
-      <form id="new-account">
-        <div class="row">
-          <div class="col-sm-12 col-md-6" >
-            <div class="form-group">
-              <label for="new-full-name"><b>Full name</b></label><br>
-              <input type="text" class="form-control" id="new-full-name">
+      <div id="model">
+        <div class="jumbotron">
+          <h1>Bank Account</h1>
+          <h2>Register New Account</h2>
+        </div>
+        <form id="new-account">
+          <div class="row">
+            <div class="col-sm-12 col-md-6" >
+              <div class="form-group">
+                <label for="new-full-name"><b>Full name</b></label><br>
+                <input type="text" class="form-control" id="new-full-name">
+              </div>
+              <div class="form-group">
+                <label for="new-deposit"><b>New-Deposit</b></label><br>
+                <input type="text" class="form-control" id="new-deposit">
+              </div>
             </div>
-            <div class="form-group">
-              <label for="new-deposit"><b>New-Deposit</b></label><br>
-              <input type="text" class="form-control" id="new-deposit">
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6">
-            <div id="deposit">
-              <div class="withdraw">
-                <div class="form-group">
-                  <h2>Deposit or withdraw Fund</h2>
-                  <label for="deposit-amount"><b>Deposit Amount</b></label><br>
-                  <input type="text" class="deposit amount">
-                </div>
-                <div class="form-group">
-                  <label for="withdraw"><b>Withdraw</b></label><br>
-                  <input type="text" class="withdraw">
+            <div class="col-sm-12 col-md-6">
+              <div id="deposit">
+                <div class="withdraw">
+                  <div class="form-group">
+                    <h2>Deposit or withdraw Fund</h2>
+                    <label for="deposit-amount"><b>Deposit Amount</b></label><br>
+                    <input type="text" class="deposit amount">
+                  </div>
+                  <div class="form-group">
+                    <label for="withdraw"><b>Withdraw</b></label><br>
+                    <input type="text" class="withdraw">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <button type="submit" class="btn">submit</button>
-      </form>
+          <button type="submit" class="btn">submit</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
