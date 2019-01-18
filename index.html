@@ -5,44 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bank Account project</title>
-    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-  <div class="container">
-    <h1>Bank Account</h1>
-                <h2>Register New Account</h2>
-                <form id="new-account">
-                    <div class="row">
-                        <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="new-full-name"><b>Full name</b></label><br>
-                    <input type="text" class="form-control" id="new-full-name">
-                  </div>
-                  <div class="form-group">
-                    <label for="new-deposit"><b>New-Deposit</b></label><br>
-                    <input type="text" class="form-control" id="new-deposit">
-                  </div>
-                </div>
-                  <div class="col-md-6">
-                  <div id="deposit">-
-                    <div class="withdraw">
-                      <div class="form-group">
-                          <h2>Deposit or withdraw Fund</h2>
-                        <label for="deposit-amount"><b>Deposit Amount</b></label><br>
-                        <input type="text" class="deposit amount">
-                      </div>
-                      <div class="form-group">
-                        <label for="withdraw"><b>Withdraw</b></label><br>
-                        <input type="text" class="withdraw">
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-                    </div>
-                 <button type="submit" class="btn">submit</button>
-                </form>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Bank Account</h1>
+        <h2>Register New Account</h2>
+      </div>
+      <form id="new-account">
+        <div class="row">
+          <div class="col-sm-12 col-md-6" >
+            <div class="form-group">
+              <label for="new-full-name"><b>Full name</b></label><br>
+              <input type="text" class="form-control" id="new-full-name">
+            </div>
+            <div class="form-group">
+              <label for="new-deposit"><b>New-Deposit</b></label><br>
+              <input type="text" class="form-control" id="new-deposit">
+            </div>
           </div>
-    </body>
+          <div class="col-sm-12 col-md-6">
+            <div id="deposit">
+              <div class="withdraw">
+                <div class="form-group">
+                  <h2>Deposit or withdraw Fund</h2>
+                  <label for="deposit-amount"><b>Deposit Amount</b></label><br>
+                  <input type="text" class="deposit amount">
+                </div>
+                <div class="form-group">
+                  <label for="withdraw"><b>Withdraw</b></label><br>
+                  <input type="text" class="withdraw">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn">submit</button>
+      </form>
+    </div>
+  </body>
 </html>
