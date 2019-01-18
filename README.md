@@ -12,7 +12,7 @@ As a user, I want to be see my bank balance before and after every transaction
 
 ### Setup/Installation Requirements
 * Open CMD/Terminal
-* git clone https://github.com/Perpetue/Project-Pig-Dice
+* git clone https://github.com/Perpetue/Bank-Account-Project
 * Open the index.html file with the browser of your choice
  and To access on this project, you have to use google chrome and text-editor.
 ## Link to live site on GitHub Pages
