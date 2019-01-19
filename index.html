@@ -12,43 +12,70 @@
   <body>
     <div class="container">
       <div id="model">
-        <div class="jumbotron">
-          <h1>Bank Account</h1>
-        </div>
-        <form id="new-account">
-          <div class="row">
+            <div class="jumbotron">
+              <h1>Bank Account</h1>
+            </div>
+         <div class="row">
             <div class="col-sm-12 col-md-6" >
-              <div class="form-group">
-                <h2>Register New Account</h2>
-                <div class="withdraw">
-                <label for="new-full-name"><b>Full name</b></label><br>
-                <input type="text" class="form-control" id="new-full-name">
-              </div>
-              <div class="form-group">
-                <label for="new-deposit"><b>New-Deposit</b></label><br>
-                <input type="value" class="form-control" id="new-deposit">
-              </div>
-            </div>
-            </div>
-            <div class="col-sm-12 col-md-6">
-              <div id="deposit">
-                  <div class="form-group">
-                    <h2>Deposit or withdraw Fund</h2>
-                    <label for="deposit-amount"><b>Deposit Amount</b></label><br>
-                    <input type="text" class="deposit amount">
-                  </div>
-                  <div class="form-group">
-                    <label for="withdraw"><b>Withdraw</b></label><br>
-                    <input type="text" class="withdraw">
-                </div>
-              </div>
-            </div>
+                <div class="wrapper">
+                      <div class="new_account">
+                        <form id="submit_new_account">
+                                <h2>Register New Account</h2>
+                          <div class="form-group">
+                            <label for="user_name"><b>Full Name</b></label><br>
+                            <input type="text" id="user_name" class="form-control" ><br>
+                          </div>
+                          <div class="form-group">
+                            <label for="user_password">Password</label>
+                            <input type="password" id="user_password" class="form-control" value="correct">
+                          </div><br></br>
+                          <div class="form-group">
+                            <label for="user_id">ID</label>
+                            <input type="number" id="user_id" class="form-control" value="correct">
+                          </div><br></br>
+                          <div class="form-group">
+                            <label for="initial_deposit">Initial deposit</label>
+                            <input type="number" id="initial_deposit" class="form-control" value="amount">
+                          </div><br></br>
+                          <button type="submit" class="first">Open Account</button>
+                        </form>
+                      </div>
+                      <div class="col-sm-12 col-md-6" >
+                      <div class="deposits_withdrawls">
+                        <div id="deposits">
+                          <h2>Make a deposit</h2>
+                          <form id="make_deposit">
+                            <div class="form-group">
+                              <label for="current_deposit"><b>Deposit amount</b></label><br>
+                              <input type="number" class="form-control" id ="current_deposit" value="add">
+                            </div>
+                            <button type="submit" class="add">Deposit</button>
+                          </form>
+                        </div>
+                        <div id="withdrawls">
+                          <h3>Make a withdrawl</h3>
+                          <form id='make_withdrawl'>
+                          <div class="form-group">
+                            <label for="current_withdrawl"><b>Withdrawl amount</b></label><br>
+                            <input type="number" class="form-control" id="current_withdrawl" value="removed">
+                          </div>
+                          <button type="submit" class="remove">Withdraw</button>
+                        </form>
+                        </div>
+                      </div>
+                      <div class="account_name_display">
+                          <h3>Account Name:</h3>
+                          <p><span class="accountname_here"></span></p>
+                        </div>
+                      <div class="account_balance_display">
+                        <h3>Balance:</h3>
+                        <p><span class="balance_here"></span></p>
+                      </div>
+          </form>
           </div>
-          <div id="balance"></div>
-          <button type="submit" class="btn">submit</button>
-        </form>
+         </div>
       </div>
-    </div>
+   </div>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/scripts.js"></script>
   </body>
