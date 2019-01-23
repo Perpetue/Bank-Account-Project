@@ -36,7 +36,6 @@ $(document).ready(function(){
          deposit = parseInt($('#current_deposit').val());
         userAccount.makeDeposit(deposit);
         $('.balance_here').text(`${userAccount.balance}`);
-        $('#make_deposit').trigger('reset');
       });
 
       $('#make_withdrawl').submit(function(event) {
@@ -44,7 +43,6 @@ $(document).ready(function(){
          withdrawl = parseInt($('#current_withdrawl').val());
         userAccount.makeWithdrawl(withdrawl);
         $('.balance_here').text(`${userAccount.balance}`);
-        $('#make_withdrawl').trigger('reset');
       })
   })
 })
